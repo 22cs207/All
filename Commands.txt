@@ -1,5 +1,11 @@
 Prog-1
 
+git config --global user.name name(git bash)
+
+git config --global user.email  mail(git bash)
+
+git config --list(gitb bash)
+
 git clone url
 
 git push -u origin main
@@ -44,5 +50,13 @@ Prog-5,6
 maven-archetype-quickstart 1.5
 
 java -cp  from build/libs/demo-69-SNAPSHOT.jar tejas.shubham.App(first one including build next one from java(dont include)
+
+gradle build
+
+gradle test
+
+gradle --version
+
+mvn --version
 
 
