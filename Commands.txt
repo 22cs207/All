@@ -1,0 +1,48 @@
+Prog-1
+
+git clone url
+
+git push -u origin main
+
+git pull origin main
+
+git add . 
+
+git commit -m "Message"
+
+---------------------------------------------------------------------------------------------------------------------
+
+Prog-2,3
+
+wsl --install
+
+docker ps
+
+docker images
+
+docker rm  <container_id>
+
+docker rmi <image_id>
+
+docker build -t name(flaskapp) .
+
+docker run -d -p 5000:5000 name(flaskapp)
+
+docker stop <container_id>
+
+docker tag <image> <usrname>/<tagname> : docker tag flaskapp vivekpradhan22/ex_app
+
+docker push <usrname>/<tagname> :  docker push vivekpradhan22/ex_app
+
+docker-compose up --build 
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+Prog-5,6
+
+maven-archetype-quickstart 1.5
+
+java -cp  from build/libs/demo-69-SNAPSHOT.jar tejas.shubham.App(first one including build next one from java(dont include)
+
+
